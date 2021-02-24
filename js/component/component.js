@@ -3,4 +3,4 @@ function showAlertTouser(
 	classType = 'information'
 ) {
 	return `<div class="${classType}">${message}</div>`;
-}
+};

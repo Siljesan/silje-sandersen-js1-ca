@@ -46,10 +46,10 @@ btn.onclick = function (event) {
         } else {
             return false;
         };
-    }
+    };
     function validateEmail(emailVal) {
         const expression = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(.[a-zA-Z0-9-])/;
         const isValid = expression.test(emailVal);
         return isValid;
-    }
-}
+    };
+};
